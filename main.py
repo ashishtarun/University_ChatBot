@@ -6,7 +6,7 @@ from fuzzywuzzy import fuzz
 app = Flask(__name__)
 
 # Set up OpenAI API credentials
-openai.api_key = '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'
+openai.api_key = 'API KEY'
 
 # Load the dataset from a JSON file
 with open('bot_dataset.json', 'r') as json_file:
